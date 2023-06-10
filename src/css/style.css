@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;800&display=swap");
+
+body {
+    font-family: "Public Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.header{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.logo, .menu{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+   padding: 15px;
+   line-height: 18px;  
+}
+.menu-item:hover{
+    background-color: var(--primarycolor);
+    color: white;
+}
+
+.botao{
+width: 127px;
+height: 39px;
+left: calc(50% - 127px/2 + 602px);
+top: calc(50% - 39px/2 - 143.5px);
+
+background: #5BC241;
+border-radius: 10px;
+border: none;
+color: white;
+font-family: "Public Sans", sans-serif;
+font-size: 15px;
+
+}
